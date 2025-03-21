@@ -103,11 +103,12 @@ img{
     background-color: #F2A0BE;
     padding: 2em;
     display: grid;
+    gap: 1em;
     grid-template-columns: repeat(2, 1fr);
 }
 
 .educacion {
-    height: 200px;
+    min-height: 200px;
     width: 100%;
     background-color: #F25260;
     padding: 2em;
@@ -118,4 +119,32 @@ img{
 }
 .column{
     flex-direction: column;
+}
+.contenedorFlexbox{
+    display: flex;
+    background-color: #F2809F;
+    overflow-x: auto;
+    gap: 10px;
+}
+.tarjeta{
+    background-color: #734656;
+    color: white;
+    border-radius: 1em;/*Para redondear las esquinas*/
+    flex-basis: 100%;
+    flex-grow: 1; /*Para que no se expanda*/
+    flex-shrink: 1; /*Para que no se encoja*/
+    flex: 1 1 100px;/*Para que no se expanda ni se encoja*/
+    padding: 1em;/*Para que el texto no se pegue a los bordes*/
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+.tarjetaTitulo{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.tarjetaContenido{
+    font-size: 1em;
+    background-color: white;
+    color: gray;
+    padding: 1em;
+    border-radius: 1em;
 }
