@@ -26,6 +26,24 @@ bg-negro{
     text-decoration: none;
 
 }
+
+.linea {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.barra{
+    flex-grow: 1;
+    height: 1px;
+    background-color: var(--bg-negro);
+    max-width: 100%;
+}
+
+a{
+    color: var(--bg-rosaClaro);
+}
+
 body{
     /*background-color: rgb(255, 255, 255);*/
     font-family: Arial, Helvetica, sans-serif;
@@ -47,7 +65,7 @@ body{
 
 main{
  height: 100%;
- width: 60%;
+ width: 70%;
  background-color: var(--bg-blanco);
 }
 
@@ -59,6 +77,13 @@ aside{
 
     
 }
+
+.datos{
+    margin-bottom: 1.5em;
+    display: grid;
+    place-items: center;
+}
+
 img{
     width: 100%;
     height: 100%;
@@ -79,12 +104,11 @@ img{
 }
 
 .datosPersonales{
-    padding-top: 1em;
     width: 100%;
-    padding: 2em;
+    padding: 1.5em 1.5em 0.5em 1.5em;
 .listaDP{
     flex-direction: column;
-    gap: 1em;
+    gap: .5em;
     margin-top: 1em;
     li{
         list-style: none;
@@ -92,21 +116,34 @@ img{
 }
 }
 
+span{
+    color: var(--bg-rosaClaro);
+}
+
+.info{
+    padding: 2em;
+}
+.experiencia{
+    padding: 2em;
+}
+.lenguajes{
+    padding: 2em;
+}
+
 .redes {
     height: 150px;
-    width: 100%;
-    background-color: #F2A0BE;
-    padding: 1.5em;
+    width: fit-content;
+    padding: 1.5em 1.5em .5em 1.5em;
     display: grid;
-    gap: 1em;
+    gap: .5em;
+    width: fit-content;
     grid-template-columns: repeat(2, 1fr);
 }
 
 .educacion {
     min-height: 200px;
     width: 100%;
-    background-color: #F25260;
-    padding: 2em;
+    padding: 0 1.5em .5em 1.5em;
 }
 /*  ordenamiento de elementos*/
 .d-flex{
@@ -115,7 +152,7 @@ img{
 .column{
     flex-direction: column;
 }
-.contenedorFlexbox{
+/* .contenedorFlexbox{
     display: flex;
     background-color: #F2809F;
     overflow-x: auto;
@@ -125,14 +162,14 @@ img{
     background-color: #734656;
     color: white;
     border-radius: 1em;/*Para redondear las esquinas*/
-    flex-basis: 100%;
+    /* flex-basis: 100%;
     flex-grow: 1; /*Para que no se expanda*/
-    flex-shrink: 1; /*Para que no se encoja*/
-    flex: 1 1 100px;/*Para que no se expanda ni se encoja*/
-    padding: 1em;/*Para que el texto no se pegue a los bordes*/
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
-}
-.tarjetaTitulo{
+    /* flex-shrink: 1; Para que no se encoja */
+    /* flex: 1 1 100px;Para que no se expanda ni se encoja */
+    /* padding: 1em;Para que el texto no se pegue a los bordes */
+    /* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+} */ 
+/* .tarjetaTitulo{
     font-size: 1.5em;
     font-weight: bold;
 }
@@ -142,4 +179,4 @@ img{
     color: gray;
     padding: 1em;
     border-radius: 1em;
-}
+} */ 
