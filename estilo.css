@@ -1,0 +1,77 @@
+@import url(../../assets/css/tipografias.css);
+
+:root{
+    --bg-fondo:#f8f8f4;
+    --bg-span:#789EBF;
+    --bg-texto:#034AA6;
+    --bg-tarjeta:#3F76A6;
+    --bg-descripcion:#789EBF;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: var(--bg-texto);
+    background-color:var(--bg-fondo);
+    padding: 1em;
+}
+.tarjeta{
+    box-shadow: 0 0 20px var(--bg-tarjeta);
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.titulo{
+    background: var(--bg-tarjeta);
+    width: 100%;
+    height: 14%;
+    padding: 10px;
+    color: var(--bg-fondo);
+}
+.descripcion{
+    padding: 10px;
+    height: 43%;
+    background-color: var(--bg-descripcion);
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--bg-fondo);
+}
+.contenedor{
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+}
+.imagen{
+    height: 53%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        img{
+            width: 200%;
+            transform: rotate(25deg);
+            filter: blur(.3px);
+
+        }
+}
+.tarjeta:hover{
+    transform: scale(1.02);
+    transition: all 200ms;
+}
+span{
+    color: var(--bg-span);
+}
+.texto{
+    padding: 1em;
+}
+p{
+    font-weight: 300;
+}
