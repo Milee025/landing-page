@@ -1,11 +1,11 @@
 @import url(../../assets/css/tipografias.css);
 
 :root{
-    --bg-fondo:#f8f8f4;
-    --bg-span:#789EBF;
-    --bg-texto:#034AA6;
-    --bg-tarjeta:#3F76A6;
-    --bg-descripcion:#789EBF;
+    --bg-fondo:#0D0D0D;
+    --bg-span:#378C4C;
+    --bg-texto:#e7e7e7;
+    --bg-tarjeta:#29733C;
+    --bg-descripcion:#29733C;
 }
 
 
@@ -31,7 +31,7 @@ body{
     width: 100%;
     height: 14%;
     padding: 10px;
-    color: var(--bg-fondo);
+    color: var(--bg-texto);
 }
 .descripcion{
     padding: 10px;
@@ -39,7 +39,7 @@ body{
     background-color: var(--bg-descripcion);
     font-size: 12px;
     font-weight: 600;
-    color: var(--bg-fondo);
+    color: var(--bg-texto);
 }
 .contenedor{
     display: flex;
