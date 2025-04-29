@@ -10,5 +10,23 @@ img{
 main{
     width: 540px;
     height: 960px;
+    display: flex;
+    flex-direction: column;
     background-color: aqua;
+    padding: 50px 30px 50px 30px;
+    gap: 27px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.items{
+    display: flex;
+    gap: 2em;
+}
+.categorias{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
