@@ -4,15 +4,12 @@
     margin: 0;
     box-sizing: border-box;
 }
-img{
-    width: 176px;
-}
 main{
     width: 540px;
     height: 960px;
     display: flex;
     flex-direction: column;
-    background-color: aqua;
+    background-color: #FFFFFF;
     padding: 50px 30px 50px 30px;
     gap: 27px;
 }
@@ -29,4 +26,74 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #262223;
+}
+article{
+    display: flex;
+    align-items: center;
+}
+section.descripcion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+span.nombre {
+    font-size: 20px;
+    text-align: center;
+    color: #594839;
+}
+
+span.precio {
+    font-size: 15px;
+    color: #B1A499;
+}
+
+span.cuotas {
+    font-size: 15px;
+    color: #B1A499;
+    text-align: center;
+}
+.producto{
+    border: solid 1px #8C8177;
+    border-radius: 30px;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.imagen{
+    width: 176px;
+}
+.contenedorProductos{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    overflow: hidden;
+}
+span#logo{
+    font-size: 40px;
+    color: #8C8177;
+}
+i{
+    font-size: 24px;
+    color: #8C8177;
+}
+span#cat{
+    font-size: 25px;
+    color: #B1A499;
+}
+span#cate{
+    font-size: 25px;
+    color: #594839;
+}
+i.fa-regular.fa-bars{
+    width: 80px;
 }

@@ -1,0 +1,44 @@
+@import url('../../assets/css/fawesome-all.css');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 540px;
+    height: 960px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding: 50px 30px 50px 30px;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #262223;
+}
+.logo{
+    font-size: 70px;
+    color: #A69C94;
+    width: 480px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+input{
+    width: 474px;
+    height: 66px;
+    padding: 30px 20px 30px 20px;
+    border-radius: 30px;
+    border: solid 1px #A69C94;
+}
