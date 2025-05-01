@@ -38,7 +38,21 @@ body{
 input{
     width: 474px;
     height: 66px;
-    padding: 30px 20px 30px 20px;
+    padding-left: 60px;
+    padding-right: 40px;
     border-radius: 30px;
     border: solid 1px #A69C94;
+    color: #A69C94;
+}
+.fa-circle-user{
+    position: absolute;
+    left: 29em;
+    top:27.8em;
+    color: #8C8177;
+}
+.fa-lock{
+    position: absolute;
+    left: 29em;
+    top: 33.1em;
+    color: #8C8177;
 }
