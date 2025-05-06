@@ -1,4 +1,5 @@
 @import url('../../assets/css/fawesome-all.css');
+
 *{
     padding: 0;
     margin: 0;
@@ -13,13 +14,8 @@ main{
     padding: 50px 30px 50px 30px;
     gap: 27px;
     overflow-y: auto;
+    scrollbar-width: none;
 }
-
-main::-webkit-scrollbar {
-    width: 0;
-    height: 0;
-}
-
 header{
     display: flex;
     justify-content: space-between;
