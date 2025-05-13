@@ -62,7 +62,7 @@ input{
     color: #8C8177;
 }
 .btn{
-    width: 474px;
+    width: 100%;
     height: 66px;
     background-color: #D9BEA7;
     display: flex;
