@@ -143,6 +143,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 5px;
+    width: 100%;
 }
 .nombreP, .cuotas{
     color: #8C8177;
