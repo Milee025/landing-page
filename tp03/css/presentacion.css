@@ -1,0 +1,34 @@
+:root{
+    --naranja:#EE6729;
+    --naranjaClaro: #F9CBB6;
+    --blanco: #FFFFFF;
+    --negro: #151515;
+    --gris: #585858;
+    --grisClaro: #AFAFAF;
+    --grisExtraClaro: #DFDFDF;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 414px;
+    height: 736px;
+    background-color: var(--blanco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: var(--negro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+img{
+    width: 80%;
+}
