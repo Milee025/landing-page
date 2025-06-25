@@ -32,3 +32,19 @@ body{
 img{
     width: 80%;
 }
+
+/* 
+hacer un archivo aparte de responsive y importarlo al resto del css a lo ultimo
+
+@import url(url)
+@media screen and (max-width:1024px){
+    header{
+
+    } 
+
+    flex 0 0 calc(50% -1em); calcular el ancho o altura
+    @media screen and (orientation: vertical/portrair/landscape){
+    header{
+
+    }   
+} */
