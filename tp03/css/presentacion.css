@@ -15,12 +15,13 @@
     box-sizing: border-box;
 }
 main{
-    width: 414px;
-    height: 736px;
+    width: 100%;
+    max-width: 414px;
     background-color: var(--blanco);
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 body{
     background-color: var(--negro);
@@ -47,4 +48,11 @@ hacer un archivo aparte de responsive y importarlo al resto del css a lo ultimo
     header{
 
     }   
+
+
+    tablets y moviles 768px
+    moviles 480px
+    escritorio 1024 px
+
 } */
+ 
