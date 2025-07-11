@@ -61,6 +61,7 @@ section.container {
     flex-direction: column;
     gap: 1em;
     margin-top: 1em;
+    height: 80%;
 }
 
 .info {
@@ -82,7 +83,6 @@ section.boton {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
     top: 20em;
     padding: 1em;
 }
