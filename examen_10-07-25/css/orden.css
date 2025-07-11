@@ -29,7 +29,7 @@ main{
 }
 .header{
     width: 100%;
-    height: 3.5em;
+    height: 4.5em;
     background-color: var(--segundo);
     display: flex;
     justify-content: center;
