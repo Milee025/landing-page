@@ -61,7 +61,7 @@ section.container {
     flex-direction: column;
     gap: 1em;
     margin-top: 1em;
-    height: 80%;
+    height: 70%;
 }
 
 .info {
